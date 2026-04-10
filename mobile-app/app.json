@@ -1,0 +1,13 @@
+// mobile-app/constants/config.ts
+export const CONFIG = {
+  // Desarrollo local
+  API_URL: 'http://localhost:3001/api',
+  
+  // Para dispositivo físico, usa tu IP local:
+  // API_URL: 'http://192.168.1.XXX:3001/api',
+  
+  // Producción (cuando despliegues):
+  // API_URL: 'https://tu-backend.onrender.com/api',
+  
+  API_FOOTBALL_KEY: '3e75dc7b721e8eb4beb7bab5393e4121',
+};
